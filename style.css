@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(189, 211, 111);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: Helvetica, sans-serif;
+    color: rgb(53, 48, 42);
+}
+
+header, footer {
+    color: bisque;
+    text-shadow: 2px;
+    text-align: center;
+    background-color: rgb(128, 143, 47);
+    margin: 15px;
+    padding: 0px, 20px;
+}
+
+img {
+    border: 10px solid rgb(128, 143, 47);
+    border-radius: 10%;
+    width: 150px;
+    height: 190px;
+}
+
+nav {
+    color: bisque;
+    margin: 0px, 20px;
+}
+
+a:link {
+    color: bisque;
+}
+
+a:visited {
+    color: rgb(199, 161, 116);
+}
+
+a:active {
+    color: yellow;
+}
+
+.contact > h5 {
+    font-style: italic;
+}
+
