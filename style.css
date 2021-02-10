@@ -1,3 +1,6 @@
+/*Welcome to Dylan's profile CSS page*/
+
+/*Some basic styling for the whole page*/
 body {
     background-color: rgb(189, 211, 111);
     margin-left: auto;
@@ -9,23 +12,26 @@ body {
 
 header, footer {
     color: bisque;
-    text-shadow: 2px;
+    text-shadow: 3px 3px 5px grey;
     text-align: center;
     background-color: rgb(128, 143, 47);
     margin: 15px;
     padding: 0px, 20px;
 }
-
+/*specific sizing for the footer, though it share most of it's style w/ header */
+footer {
+    font-size: 15px;
+}
 img {
     border: 10px solid rgb(128, 143, 47);
     border-radius: 10%;
     width: 150px;
     height: 190px;
 }
-
-nav {
+/* wanted to space out my links! */
+a {
     color: bisque;
-    margin: 0px, 20px;
+    margin: 20px;
 }
 
 a:link {
